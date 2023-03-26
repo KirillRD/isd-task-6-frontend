@@ -1,0 +1,15 @@
+.is-read-column {
+  width: 5%;
+}
+
+.sender-column {
+  width: 20%;
+}
+
+.title-column {
+  width: 55%;
+}
+
+.date-column {
+  width: 20%;
+}
