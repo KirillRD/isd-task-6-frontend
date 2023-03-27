@@ -13,3 +13,7 @@
 .date-column {
   width: 20%;
 }
+
+.message-body {
+  white-space: pre-wrap;
+}

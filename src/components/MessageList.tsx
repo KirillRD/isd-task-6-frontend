@@ -91,7 +91,7 @@ export const MessageList = ({ className }: MessageListProps) => {
   }
 
   const bodyExpanderTemplate = (data: DataTableRowData<DataTableValue[]>) => {
-    return <pre className='p-component px-6'>{data.body}</pre>;
+    return <pre className='p-component px-6 message-body'>{data.body}</pre>;
   }
 
   const updateIsReadOfMessage = async (id: number): Promise<Message> => {

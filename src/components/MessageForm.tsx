@@ -146,7 +146,7 @@ export const MessageForm = ({ className }: MessageFormProps) => {
             icon='pi pi-send'
             disabled={!selectedUsers.length} />
         </div>
-        <Dialog header='Sending message' className='w-3' visible={modalEmptyTitle} onHide={handleModalHide} footer={(
+        <Dialog header='Sending message' className='xl:w-3 lg:w-5 md:w-7 sm:w-9' visible={modalEmptyTitle} onHide={handleModalHide} footer={(
           <>
             <Button label='Cancel' type='button' icon='pi pi-times' onClick={handleModalHide} className='p-button-text' />
             <Button label='OK' type='submit' icon='pi pi-check' onClick={handleModalSubmit} />

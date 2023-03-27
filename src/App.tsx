@@ -1,9 +1,9 @@
 import 'normalize.css';
-import './assets/styles/index.css';
 import 'primereact/resources/themes/soho-light/theme.css';
 import 'primereact/resources/primereact.min.css';
 import 'primeicons/primeicons.css';
 import 'primeflex/primeflex.css';
+import './assets/styles/index.css';
 import { Navigate, Route, Routes } from 'react-router-dom';
 import { ApiRoute } from './constants';
 import { NotFound } from './pages/NotFound';
